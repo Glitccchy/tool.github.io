@@ -1,0 +1,42 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+body{
+  background: linear-gradient(rgba(0, 0, 0, 0.001), #009688),url(images/girl-wallpaper.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+section{
+  margin-left: 40px;
+}
+h1{
+  margin-left: 40px;
+  font-size: 60px;
+}
+h3{
+  margin-bottom: 10px;
+  margin-top: 15px;
+  font-weight: bold;
+}
+.par1{
+  font-style: italic;
+}
+#menuBtn {
+  width: 40px;
+  height: 50px;
+  background: #009688;
+  text-align: center;
+  position: fixed;
+  right: 30px;
+  top: 20px;
+  border-radius: 3px;
+  z-index: 3;
+  cursor: pointer;
+}
+#menuBtn img {
+  width: 20px;
+  height: 20px;
+  margin-top: 15px;
+}
